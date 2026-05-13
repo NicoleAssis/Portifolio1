@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Assis | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="hero-content animate">
+        <p>ENGENHEIRA DE SOFTWARE</p>
+        <h1>Nicole Assis</h1>
+        <p class="hero-subtext">Analista de Dados para Performance Industrial</p>
+    </div>
+</header>
+
+<div class="container">
+    
+    <section class="intro-section">
+        <h2 class="section-title">Carreira</h2>
+        <p class="animate">
+            Acadêmica em Engenharia de Software pela UniSenai. Atuando na Renault do Brasil com foco em transformação digital. 
+            Tenho forte interesse em Iniciação Científica, colaborando em pesquisas de Machine Learning e otimização industrial.
+        </p>
+    </section>
+
+    <h2 class="section-title">Experiência Industrial</h2>
+    
+    <div class="card animate">
+        <span class="tag-main">Renault • Atual</span>
+        <h3>Analista de Projetos e Processos</h3>
+        <p>Híbrido entre Engenharia de Produção e Desenvolvimento de Software.</p>
+        <button class="toggle-btn" onclick="toggle('renault-analista')">Mais Informações ▾</button>
+        <div id="renault-analista" class="details">
+            <ul>
+                <li>Foco em redução de desperdícios via cronoanálise.</li>
+                <li>Automação RPA e Python para processos críticos.</li>
+                <li>Estruturação de Dashboards no Looker e Spotfire.</li>
+                <li>Pipelines de dados com Power Query e Power Automate.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card animate">
+        <span class="tag-main">Renault • 2024-2026</span>
+        <h3>Estágio em Engenharia de Processos</h3>
+        <p>Transformação digital e interoperabilidade de dados.</p>
+        <button class="toggle-btn" onclick="toggle('renault-estagio')">Mais Informações ▾</button>
+        <div id="renault-estagio" class="details">
+            <ul>
+                <li>Desenvolvimento em Power Apps e SharePoint.</li>
+                <li>Criação de POCs avançadas em Power BI com DAX.</li>
+                <li>Padronização de dados entre setores distintos.</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2 class="section-title">Projetos GitHub</h2>
+    <div class="grid">
+        
+        <div class="card animate">
+            <span class="tag-main">Node.js + EJS</span>
+            <h3>Gerenciamento de Cursos</h3>
+            <p>Projeto para a faculdade focado em gestão acadêmica.</p>
+            <button class="toggle-btn" onclick="toggle('git1')">Ver Detalhes ▾</button>
+            <div id="git1" class="details">
+                <p>API com Node.js e EJS para o front-end de gerenciamento de cursos.</p>
+                <br><a href="https://github.com/NicoleAssis/Plataforma_Gerenciamento_Cursos_ProjetoSenai" target="_blank">Repositório →</a>
+            </div>
+        </div>
+
+        <div class="card animate">
+            <span class="tag-main">React + GraphQL</span>
+            <h3>Plataforma Fitness</h3>
+            <p>Projeto de React e GraphQL aprendido com a Alura.</p>
+            <button class="toggle-btn" onclick="toggle('git2')">Ver Detalhes ▾</button>
+            <div id="git2" class="details">
+                <p>Focado em cache queries e gerenciamento de estado para plataformas fitness.</p>
+                <br><a href="https://github.com/NicoleAssis/PlataformaFitness---GraphQL-Alura" target="_blank">Repositório →</a>
+            </div>
+        </div>
+
+        <div class="card animate">
+            <span class="tag-main">Vite + React</span>
+            <h3>Calendário de Eventos</h3>
+            <p>Calendário interativo desenvolvido com Vite.</p>
+            <button class="toggle-btn" onclick="toggle('git3')">Ver Detalhes ▾</button>
+            <div id="git3" class="details">
+                <p>Aplicação de gerenciamento de eventos com interface dinâmica.</p>
+                <br><a href="https://github.com/NicoleAssis/React---Calend-rio-Eventos" target="_blank">Repositório →</a>
+            </div>
+        </div>
+
+        <div class="card animate">
+            <span class="tag-main">Backend Node.js</span>
+            <h3>API REST</h3>
+            <p>API REST desenvolvida para aprendizado em Node.js.</p>
+            <button class="toggle-btn" onclick="toggle('git4')">Ver Detalhes ▾</button>
+            <div id="git4" class="details">
+                <p>Estrutura escalável focada em rotas e persistência de dados.</p>
+                <br><a href="https://github.com/NicoleAssis/API_REST" target="_blank">Repositório →</a>
+            </div>
+        </div>
+
+        <div class="card animate">
+            <span class="tag-main">Web Design</span>
+            <h3>Blog de Literatura</h3>
+            <p>Blog construído com HTML, CSS e JS.</p>
+            <button class="toggle-btn" onclick="toggle('git5')">Ver Detalhes ▾</button>
+            <div id="git5" class="details">
+                <p>Interface responsiva e limpa para compartilhamento de conteúdo literário.</p>
+                <br><a href="https://github.com/NicoleAssis/Blog-de-Literatura" target="_blank">Repositório →</a>
+            </div>
+        </div>
+
+    </div>
+
+    <h2 class="section-title">Tecnologias</h2>
+    <div class="skill-list animate">
+        <div class="skill-item">Python (AI/RPA) </div>
+        <div class="skill-item">React & Vite</div>
+        <div class="skill-item">Node.js</div>
+        <div class="skill-item">GraphQL</div>
+        <div class="skill-item">Looker & Spotfire </div>
+        <div class="skill-item">SQL & TypeScript </div>
+    </div>
+
+</div>
+
+<footer>
+    <a href="https://github.com/NicoleAssis" target="_blank">GITHUB</a>
+    <a href="https://www.linkedin.com/in/nicoleassissiqueira/" target="_blank">LINKEDIN</a>
+    <p style="margin-top: 30px;">Feito com ♡ por Nicole Assis</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
